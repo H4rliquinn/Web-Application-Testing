@@ -1,1 +1,30 @@
+body{
+    font-size:62.5%
+}
 
+App{
+    margin:0px auto;
+    width:100%;
+}
+
+h1{
+    text-align:center;
+}
+
+.countBox{
+    margin:20px auto;
+    width:150px;
+    color:black;
+    border:2px solid black;
+    height:50px;
+    font-size:1.8rem;
+}
+
+.buttonBox{
+    text-align: center;
+}
+
+.buttonBox button{
+    padding:10px;
+    margin:10px;
+}

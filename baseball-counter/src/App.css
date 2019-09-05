@@ -11,6 +11,12 @@ h1{
     text-align:center;
 }
 
+h2{
+    text-align:center;
+    color:red;
+    font-size:1.8rem;
+}
+
 .countBox{
     margin:20px auto;
     width:150px;
@@ -27,4 +33,5 @@ h1{
 .buttonBox button{
     padding:10px;
     margin:10px;
+    width:100px;
 }

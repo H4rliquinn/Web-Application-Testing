@@ -5,8 +5,10 @@ const Display = (props) => {
 
     return ( 
         <div className="buttonBox">
-            <button type="button" onClick={()=>handleStrikes()}>Add Strike</button>
-            <button type="button" onClick={()=>handleBalls()}>Add Ball</button>
+            <button type="button" onClick={()=>props.setStrikes(1)}>Add Strike</button>
+            <button type="button" onClick={()=>props.setBalls(1)}>Add Ball</button>
+            <button type="button" onClick={()=>props.setStrikes(-1)}>Foul Ball</button>
+            <button type="button" onClick={()=>{props.setBalls(-1);props.setStrikes(0)}}>Hit</button>
         </div>
      );
 }
